@@ -1,1 +1,1007 @@
-testes
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<title>Crystopher Glodzienski - Full Stack Developer AND Freelancer</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta http-equiv="Content-Language" content="pt-br">
+	<meta charset="utf-8">
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="Acesse meu site para entender mais sobre com o que sei trabalhar e desenvolver. Servidores Linux, Desenvolvimento WEB, Laravel, Otimização de sites, SEO e muito mais. Te espero por lá :D" />
+
+	<meta property="og:title" content="Full Stack Developer AND Freelancer.">
+	<meta property="og:site_name" content="Crystopher Glodzienski">
+	<meta property="og:description" content="Acesse meu site para entender mais sobre com o que sei trabalhar e desenvolver. Servidores Linux, Desenvolvimento WEB, Laravel, Otimização de sites, SEO e muito mais. Te espero por lá :D">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:url" content="http://www.crystopher.com.br">
+        <meta property="og:image" content="http://www.crystopher.com.br/lib/media/img/foto-curriculo.png" />
+
+
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="lib/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="lib/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<!--[if IE]><link rel="shortcut icon" href="lib/media/img/favicon.png" /><![endif]-->
+	<link rel="icon" href="lib/media/img/favicon.png" />
+</head>
+<body>
+	<header></header>
+	<main>
+		<div class="container-row">
+			<div class="row row-clean">
+				<ul id="slide-out" class="col s10 m3 l3 side-nav fixed infos table-of-contents">
+					<li class="show-on-small hide-on-med-and-up">
+						<div class="user-view">
+							<p><img class="circle center" src="/lib/media/img/foto-curriculo.png">
+								<span class="white-text">Crystopher Glodzienski</span></p>
+								<p class="left-align"><span>
+									<a href="https://www.linkedin.com/in/crystopher-glodzienski/" target="_blank" >
+										<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMTAgMzEwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMTAgMzEwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnIGlkPSJYTUxJRF84MDFfIj4KCTxwYXRoIGlkPSJYTUxJRF84MDJfIiBkPSJNNzIuMTYsOTkuNzNIOS45MjdjLTIuNzYyLDAtNSwyLjIzOS01LDV2MTk5LjkyOGMwLDIuNzYyLDIuMjM4LDUsNSw1SDcyLjE2YzIuNzYyLDAsNS0yLjIzOCw1LTVWMTA0LjczICAgQzc3LjE2LDEwMS45NjksNzQuOTIyLDk5LjczLDcyLjE2LDk5LjczeiIgZmlsbD0iI2JmYmZiZiIvPgoJPHBhdGggaWQ9IlhNTElEXzgwM18iIGQ9Ik00MS4wNjYsMC4zNDFDMTguNDIyLDAuMzQxLDAsMTguNzQzLDAsNDEuMzYyQzAsNjMuOTkxLDE4LjQyMiw4Mi40LDQxLjA2Niw4Mi40ICAgYzIyLjYyNiwwLDQxLjAzMy0xOC40MSw0MS4wMzMtNDEuMDM4QzgyLjEsMTguNzQzLDYzLjY5MiwwLjM0MSw0MS4wNjYsMC4zNDF6IiBmaWxsPSIjYmZiZmJmIi8+Cgk8cGF0aCBpZD0iWE1MSURfODA0XyIgZD0iTTIzMC40NTQsOTQuNzYxYy0yNC45OTUsMC00My40NzIsMTAuNzQ1LTU0LjY3OSwyMi45NTRWMTA0LjczYzAtMi43NjEtMi4yMzgtNS01LTVoLTU5LjU5OSAgIGMtMi43NjIsMC01LDIuMjM5LTUsNXYxOTkuOTI4YzAsMi43NjIsMi4yMzgsNSw1LDVoNjIuMDk3YzIuNzYyLDAsNS0yLjIzOCw1LTV2LTk4LjkxOGMwLTMzLjMzMyw5LjA1NC00Ni4zMTksMzIuMjktNDYuMzE5ICAgYzI1LjMwNiwwLDI3LjMxNywyMC44MTgsMjcuMzE3LDQ4LjAzNHY5Ny4yMDRjMCwyLjc2MiwyLjIzOCw1LDUsNUgzMDVjMi43NjIsMCw1LTIuMjM4LDUtNVYxOTQuOTk1ICAgQzMxMCwxNDUuNDMsMzAwLjU0OSw5NC43NjEsMjMwLjQ1NCw5NC43NjF6IiBmaWxsPSIjYmZiZmJmIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+									</a>
+									<a href="https://www.facebook.com/crystopher.cardoso.7" target="_blank">
+										<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMTAgMzEwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMTAgMzEwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnIGlkPSJYTUxJRF84MzRfIj4KCTxwYXRoIGlkPSJYTUxJRF84MzVfIiBkPSJNODEuNzAzLDE2NS4xMDZoMzMuOTgxVjMwNWMwLDIuNzYyLDIuMjM4LDUsNSw1aDU3LjYxNmMyLjc2MiwwLDUtMi4yMzgsNS01VjE2NS43NjVoMzkuMDY0ICAgYzIuNTQsMCw0LjY3Ny0xLjkwNiw0Ljk2Ny00LjQyOWw1LjkzMy01MS41MDJjMC4xNjMtMS40MTctMC4yODYtMi44MzYtMS4yMzQtMy44OTljLTAuOTQ5LTEuMDY0LTIuMzA3LTEuNjczLTMuNzMyLTEuNjczaC00NC45OTYgICBWNzEuOTc4YzAtOS43MzIsNS4yNC0xNC42NjcsMTUuNTc2LTE0LjY2N2MxLjQ3MywwLDI5LjQyLDAsMjkuNDIsMGMyLjc2MiwwLDUtMi4yMzksNS01VjUuMDM3YzAtMi43NjItMi4yMzgtNS01LTVoLTQwLjU0NSAgIEMxODcuNDY3LDAuMDIzLDE4Ni44MzIsMCwxODUuODk2LDBjLTcuMDM1LDAtMzEuNDg4LDEuMzgxLTUwLjgwNCwxOS4xNTFjLTIxLjQwMiwxOS42OTItMTguNDI3LDQzLjI3LTE3LjcxNiw0Ny4zNTh2MzcuNzUySDgxLjcwMyAgIGMtMi43NjIsMC01LDIuMjM4LTUsNXY1MC44NDRDNzYuNzAzLDE2Mi44NjcsNzguOTQxLDE2NS4xMDYsODEuNzAzLDE2NS4xMDZ6IiBmaWxsPSIjYmZiZmJmIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+									</a>
+									<a href="mailto:contato@crystopher.com.br" target="_blank">
+										<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDQ4NS4yMTEgNDg1LjIxMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDg1LjIxMSA0ODUuMjExOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTQ4NS4yMTEsMzYzLjkwNmMwLDEwLjYzNy0yLjk5MiwyMC40OTgtNy43ODUsMjkuMTc0TDMyNC4yMjUsMjIxLjY3bDE1MS41NC0xMzIuNTg0ICAgYzUuODk1LDkuMzU1LDkuNDQ2LDIwLjM0NCw5LjQ0NiwzMi4yMTlWMzYzLjkwNnogTTI0Mi42MDYsMjUyLjc5M2wyMTAuODYzLTE4NC41Yy04LjY1My00LjczNy0xOC4zOTctNy42NDItMjguOTA4LTcuNjQySDYwLjY1MSAgIGMtMTAuNTI0LDAtMjAuMjcxLDIuOTA1LTI4Ljg4OSw3LjY0MkwyNDIuNjA2LDI1Mi43OTN6IE0zMDEuMzkzLDI0MS42MzFsLTQ4LjgwOSw0Mi43MzRjLTIuODU1LDIuNDg3LTYuNDEsMy43MjktOS45NzgsMy43MjkgICBjLTMuNTcsMC03LjEyNS0xLjI0Mi05Ljk4LTMuNzI5bC00OC44Mi00Mi43MzZMMjguNjY3LDQxNS4yM2M5LjI5OSw1LjgzNCwyMC4xOTcsOS4zMjksMzEuOTgzLDkuMzI5aDM2My45MTEgICBjMTEuNzg0LDAsMjIuNjg3LTMuNDk1LDMxLjk4My05LjMyOUwzMDEuMzkzLDI0MS42MzF6IE05LjQ0OCw4OS4wODVDMy41NTQsOTguNDQsMCwxMDkuNDI5LDAsMTIxLjMwNXYyNDIuNjAyICAgYzAsMTAuNjM3LDIuOTc4LDIwLjQ5OCw3Ljc4OSwyOS4xNzRsMTUzLjE4My0xNzEuNDRMOS40NDgsODkuMDg1eiIgZmlsbD0iI2JmYmZiZiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+									</a></span>
+								</p>
+							</div>
+						</li>
+						<li class="show-on-medium-and-up hide-on-small-only">
+							<div class="container">
+								<div class="row">
+									<div class="col s12 center foto-curriculo">
+										<img class="circle responsive-img foto-perfil" src="/lib/media/img/foto-curriculo.png">
+									</div>
+									<p class="nome center-align blue-grey-text text-lighten-5">Crystopher Glodzienski</p>
+									<div class="col s12 social-icons center">
+										<a href="https://www.linkedin.com/in/crystopher-glodzienski/" target="_blank" >
+											<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMTAgMzEwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMTAgMzEwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnIGlkPSJYTUxJRF84MDFfIj4KCTxwYXRoIGlkPSJYTUxJRF84MDJfIiBkPSJNNzIuMTYsOTkuNzNIOS45MjdjLTIuNzYyLDAtNSwyLjIzOS01LDV2MTk5LjkyOGMwLDIuNzYyLDIuMjM4LDUsNSw1SDcyLjE2YzIuNzYyLDAsNS0yLjIzOCw1LTVWMTA0LjczICAgQzc3LjE2LDEwMS45NjksNzQuOTIyLDk5LjczLDcyLjE2LDk5LjczeiIgZmlsbD0iI2JmYmZiZiIvPgoJPHBhdGggaWQ9IlhNTElEXzgwM18iIGQ9Ik00MS4wNjYsMC4zNDFDMTguNDIyLDAuMzQxLDAsMTguNzQzLDAsNDEuMzYyQzAsNjMuOTkxLDE4LjQyMiw4Mi40LDQxLjA2Niw4Mi40ICAgYzIyLjYyNiwwLDQxLjAzMy0xOC40MSw0MS4wMzMtNDEuMDM4QzgyLjEsMTguNzQzLDYzLjY5MiwwLjM0MSw0MS4wNjYsMC4zNDF6IiBmaWxsPSIjYmZiZmJmIi8+Cgk8cGF0aCBpZD0iWE1MSURfODA0XyIgZD0iTTIzMC40NTQsOTQuNzYxYy0yNC45OTUsMC00My40NzIsMTAuNzQ1LTU0LjY3OSwyMi45NTRWMTA0LjczYzAtMi43NjEtMi4yMzgtNS01LTVoLTU5LjU5OSAgIGMtMi43NjIsMC01LDIuMjM5LTUsNXYxOTkuOTI4YzAsMi43NjIsMi4yMzgsNSw1LDVoNjIuMDk3YzIuNzYyLDAsNS0yLjIzOCw1LTV2LTk4LjkxOGMwLTMzLjMzMyw5LjA1NC00Ni4zMTksMzIuMjktNDYuMzE5ICAgYzI1LjMwNiwwLDI3LjMxNywyMC44MTgsMjcuMzE3LDQ4LjAzNHY5Ny4yMDRjMCwyLjc2MiwyLjIzOCw1LDUsNUgzMDVjMi43NjIsMCw1LTIuMjM4LDUtNVYxOTQuOTk1ICAgQzMxMCwxNDUuNDMsMzAwLjU0OSw5NC43NjEsMjMwLjQ1NCw5NC43NjF6IiBmaWxsPSIjYmZiZmJmIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+										</a>
+										<a href="https://www.facebook.com/crystopher.cardoso.7" target="_blank">
+											<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMTAgMzEwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMTAgMzEwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnIGlkPSJYTUxJRF84MzRfIj4KCTxwYXRoIGlkPSJYTUxJRF84MzVfIiBkPSJNODEuNzAzLDE2NS4xMDZoMzMuOTgxVjMwNWMwLDIuNzYyLDIuMjM4LDUsNSw1aDU3LjYxNmMyLjc2MiwwLDUtMi4yMzgsNS01VjE2NS43NjVoMzkuMDY0ICAgYzIuNTQsMCw0LjY3Ny0xLjkwNiw0Ljk2Ny00LjQyOWw1LjkzMy01MS41MDJjMC4xNjMtMS40MTctMC4yODYtMi44MzYtMS4yMzQtMy44OTljLTAuOTQ5LTEuMDY0LTIuMzA3LTEuNjczLTMuNzMyLTEuNjczaC00NC45OTYgICBWNzEuOTc4YzAtOS43MzIsNS4yNC0xNC42NjcsMTUuNTc2LTE0LjY2N2MxLjQ3MywwLDI5LjQyLDAsMjkuNDIsMGMyLjc2MiwwLDUtMi4yMzksNS01VjUuMDM3YzAtMi43NjItMi4yMzgtNS01LTVoLTQwLjU0NSAgIEMxODcuNDY3LDAuMDIzLDE4Ni44MzIsMCwxODUuODk2LDBjLTcuMDM1LDAtMzEuNDg4LDEuMzgxLTUwLjgwNCwxOS4xNTFjLTIxLjQwMiwxOS42OTItMTguNDI3LDQzLjI3LTE3LjcxNiw0Ny4zNTh2MzcuNzUySDgxLjcwMyAgIGMtMi43NjIsMC01LDIuMjM4LTUsNXY1MC44NDRDNzYuNzAzLDE2Mi44NjcsNzguOTQxLDE2NS4xMDYsODEuNzAzLDE2NS4xMDZ6IiBmaWxsPSIjYmZiZmJmIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+										</a>
+										<a href="mailto:contato@crystopher.com.br" target="_blank">
+											<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDQ4NS4yMTEgNDg1LjIxMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDg1LjIxMSA0ODUuMjExOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTQ4NS4yMTEsMzYzLjkwNmMwLDEwLjYzNy0yLjk5MiwyMC40OTgtNy43ODUsMjkuMTc0TDMyNC4yMjUsMjIxLjY3bDE1MS41NC0xMzIuNTg0ICAgYzUuODk1LDkuMzU1LDkuNDQ2LDIwLjM0NCw5LjQ0NiwzMi4yMTlWMzYzLjkwNnogTTI0Mi42MDYsMjUyLjc5M2wyMTAuODYzLTE4NC41Yy04LjY1My00LjczNy0xOC4zOTctNy42NDItMjguOTA4LTcuNjQySDYwLjY1MSAgIGMtMTAuNTI0LDAtMjAuMjcxLDIuOTA1LTI4Ljg4OSw3LjY0MkwyNDIuNjA2LDI1Mi43OTN6IE0zMDEuMzkzLDI0MS42MzFsLTQ4LjgwOSw0Mi43MzRjLTIuODU1LDIuNDg3LTYuNDEsMy43MjktOS45NzgsMy43MjkgICBjLTMuNTcsMC03LjEyNS0xLjI0Mi05Ljk4LTMuNzI5bC00OC44Mi00Mi43MzZMMjguNjY3LDQxNS4yM2M5LjI5OSw1LjgzNCwyMC4xOTcsOS4zMjksMzEuOTgzLDkuMzI5aDM2My45MTEgICBjMTEuNzg0LDAsMjIuNjg3LTMuNDk1LDMxLjk4My05LjMyOUwzMDEuMzkzLDI0MS42MzF6IE05LjQ0OCw4OS4wODVDMy41NTQsOTguNDQsMCwxMDkuNDI5LDAsMTIxLjMwNXYyNDIuNjAyICAgYzAsMTAuNjM3LDIuOTc4LDIwLjQ5OCw3Ljc4OSwyOS4xNzRsMTUzLjE4My0xNzEuNDRMOS40NDgsODkuMDg1eiIgZmlsbD0iI2JmYmZiZiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#sobre" class="link-menu grey-text text-lighten-2 ativo-menu"><i class="material-icons grey-text text-lighten-2">info_outline</i> Sobre</a></li>
+						<li><a href="#formacao-academica" class="link-menu light-green-text text-lighten-1"><i class="material-icons light-green-text text-lighten-1">school</i>Escolaridade</a></li>
+						<li><a href="#habilidades" class="link-menu amber-text text-accent-2"><i class="material-icons amber-text text-accent-2">business_center</i>Habilidades</a></li>
+						<li><a href="#experiencias" class="link-menu purple-text text-lighten-2"><i class="material-icons purple-text text-lighten-2">assignment</i>Experiências</a></li>
+						<li><a href="#projetos" class="link-menu pink-text text-lighten-1"><i class="material-icons pink-text text-lighten-1">folder</i>Projetos</a></li>
+						<li><a href="#contato" class="link-menu light-blue-text text-lighten-1"><i class="material-icons light-blue-text text-lighten-1">email</i>Contato</a></li>
+					</ul>
+					<div class="col s12 show-on-small hide-on-med-and-up" style="position: fixed; z-index: 9998;">
+						<a data-activates="slide-out" class="menu-collapse"><i class="material-icons medium white-text">menu</i></a>
+					</div>
+
+					<div id="conteudo" class="col s12 m9 offset-m3 l9 offset-l3"> 
+						<div class="container-row">
+							<div class="row row-clean">
+								<div class="col s12 parallax">
+									<div class="parallax-container">
+										<div class="parallax">
+											<img src="lib/media/img/parallax.png">
+										</div>
+										<p class="center-align">Sobre</p>
+									</div>
+								</div>
+								<div id="sobre" class="conteudo col s12 m12 l12 scrollspy grey lighten-4">
+									<div class="container">
+										<div class="row">
+											<div class="space">&nbsp;</div>
+											<div class="col s12">
+												<table class="bordered">
+													<tbody>
+														<tr>
+															<td>Nome completo</td>
+															<td>Crystopher Glodzienski Cardoso</td>
+														</tr>
+														<tr>
+															<td>Idade</td>
+															<td>21 anos</td>
+														</tr>
+														<tr>
+															<td>Especialidade</td>
+															<td>Freelancer Desenvolvedor Full Stack</td>
+														</tr>
+														<tr>
+															<td>Idiomas</td>
+															<td>Português, Inglês básico</td>
+														</tr>
+														<tr>
+															<td>Localização</td>
+															<td>Curitiba, PR - Brasil</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+											<div class="space">&nbsp;</div>
+
+											<div class="col s12">
+												<div class="card red lighten-2 darken-1">
+													<div class="card-content white-text">
+														<span class="card-title center-align">$MeusObjetivosProfissionais = new Sucesso;</span>
+														<table>
+															<tbody>
+																<tr>
+																	<td><i class="material-icons small">short_text</i></td>
+																	<td>Trabalhar com o que gosto: Ambiente web (front e back-end), Servidores e Otimização de sites.</td>
+																</tr>
+																<tr>
+																	<td><i class="material-icons small">short_text</i></td>
+																	<td>Aprender mais sobre as interessantes vertentes da tecnologia.</td>
+																</tr>
+																<tr>
+																	<td><i class="material-icons small">short_text</i></td>
+																	<td>Empreender negócio próprio.</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col s12 parallax">
+									<div class="parallax-container">
+										<div class="parallax">
+											<img src="lib/media/img/parallax.png">
+										</div>
+										<p class="center-align">Formação acadêmica</p>
+									</div>
+								</div>
+								<div id="formacao-academica" class="conteudo col s12 m12 l12 scrollspy grey lighten-4">
+									<div class="container-row">
+										<div class="row">
+											<div class="space">&nbsp;</div>
+											<div class="col s12 m12 l4">
+												<div class="card large">
+													<div class="card-image empresas">
+														<img src="lib/media/img/logo-colegio-adventista.png">
+													</div>
+													<div class="card-content">
+														<table>
+															<tbody>
+																<tr>
+																	<td><i class="material-icons tiny">school</i></td>
+																	<td>Ensino Fundamental</td>
+																</tr>
+																<tr>
+																	<td><i class="material-icons tiny">play_arrow</i></td>
+																	<td>Início em 2008</td>
+																</tr>
+																<tr>
+																	<td><i class="material-icons tiny">done</i></td>
+																	<td>Concluído em 2011</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+											<div class="col s12 m12 l4">
+												<div class="card large">
+													<div class="card-image empresas">
+														<img src="lib/media/img/logo-colegio-tecnico-spei.png">
+													</div>
+													<div class="card-content">
+														<table>
+															<tbody>
+																<tr>
+																	<td><i class="material-icons tiny">school</i></td>
+																	<td>Ensino Médio Técnico Informática</td>
+																</tr>
+																<tr>
+																	<td><i class="material-icons tiny">play_arrow</i></td>
+																	<td>Início em 2012</td>
+																</tr>
+																<tr>
+																	<td><i class="material-icons tiny">done</i></td>
+																	<td>Concluído em 2015</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+											<div class="col s12 m12 l4">
+												<div class="card large">
+													<div class="card-image empresas">
+														<img src="lib/media/img/logo-universidade-positivo.png">
+													</div>
+													<div class="card-content">
+														<table>
+															<tbody>
+																<tr>
+																	<td><i class="material-icons tiny">school</i></td>
+																	<td>Ensino Superior em Tecnologia em Sistemas para Internet</td>
+																</tr>
+																<tr>
+																	<td><i class="material-icons tiny">play_arrow</i></td>
+																	<td>Início em 2017</td>
+																</tr>
+																<tr>
+																	<td><i class="material-icons tiny">done</i></td>
+																	<td>Previsão de conclusão em 2019</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+											<div class="space">&nbsp;</div>
+										</div>
+									</div>
+								</div>
+								<div class="col s12 parallax">
+									<div class="parallax-container">
+										<div class="parallax">
+											<img src="lib/media/img/parallax.png">
+										</div>
+										<p class="center-align">Habilidades</p>
+									</div>
+								</div>
+								<div id="habilidades" class="conteudo col s12 m12 l12 scrollspy grey lighten-4">
+									<div class="row">
+										<ul class="collapsible" data-collapsible="expandable">
+											<li>
+												<div class="collapsible-header active"><i class="material-icons">code</i>Dev</div>
+												<div id="dev" class="collapsible-body">
+													<div class="row">
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/php-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Linguagem PHP</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/delphi-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Linguagem Delphi</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/c-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Linguagem C</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/css-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">CSS</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/html-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">HTML</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/jquery-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">jQuery</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/javascript-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">JavaScript</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/git-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Git</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/bootstrap-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Framework Bootstrap</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/materialize-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Framework Materialize</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/ajax-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Ajax</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/mysql-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">MySql</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/sqlserver-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Sql Server</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/wordpress-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Plataforma WordPress</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/open-cart-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Plataforma OpenCart</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/jira-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Jira</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/bitbucket-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Bitbucket</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/github-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">GitHub</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/laravel-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Laravel</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/vue-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Vue JS</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="collapsible-header"><i class="material-icons">cloud</i>Servidor</div>
+												<div class="collapsible-body">
+													<div class="row">
+
+
+														<div class="col s12 m6 l6 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/ssl-icone.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Instalação/Manutenção de SSL</p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l6 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/plesk-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Instalação/Utilização de Plesk</p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+														<div class="col s12 m6 l6 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/dominio-transferencia-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Transferência de domínios</p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l6 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/website-transfer-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Migração de sites/emails entre servidores </p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l6 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/scripts-shell-linux-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Scripts shell linux</p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l6 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/dns-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Manutenção de Zonas DNS e DNS de servidores</p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l6 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/servidor-de-emails-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Configuração/Manutenção de servidores de emails</p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l6 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/gerenciadores-de-emails-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Configuração/Manutenção de gerenciadores de emails</p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l6 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/lista-de-spam-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Listas de SPAM</p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l6 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/linux-centos-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Criação, Manutenção e Migração de Servidores Linux CentOS</p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="collapsible-header"><i class="material-icons">assignment</i>Conceitos</div>
+												<div class="collapsible-body">
+													<div class="row">
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/conceitos-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Orientação a Objeto</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/conceitos-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">ERP <br>(Enterprise Resource Planning)</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/conceitos-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">WMS <br>(Warehouse Management System)</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="collapsible-header"><i class="material-icons">trending_up</i>SEO</div>
+												<div class="collapsible-body">
+													<div class="row">
+
+
+														<div class="col s12 m6 l4 habilidade">
+															<div class="card horizontal">
+																<div class="card-image">
+																	<img src="lib/media/img/seo-logo.png">
+																</div>
+																<div class="card-stacked">
+																	<div class="card-content">
+																		<p class="center-align">Otimização de sites</p>
+																	</div>
+															
+																</div>
+															</div>
+														</div>
+
+
+													</div>
+
+												</div>
+											</li>
+										</ul>
+
+									</div>
+								</div>
+								<div class="col s12 parallax">
+									<div class="parallax-container">
+										<div class="parallax">
+											<img src="lib/media/img/parallax.png">
+										</div>
+										<p class="center-align">Experiências</p>
+									</div>
+								</div>
+								<div id="experiencias" class="conteudo col s12 m12 l12 scrollspy grey lighten-4">
+									<div class="container-row">
+										<div class="row">
+											<div class="space">&nbsp;</div>
+											<div class="col s12 m12 l4">
+												<div class="card large">
+													<div class="card-image empresas">
+														<img src="lib/media/img/jsol-solucoes-online.png">
+														<span class="card-title">07/2014 - 06/2015</span>
+													</div>
+													<div class="card-content">
+														<p>Cargo: Estagiário de TI</p>
+														<p>&nbsp;</p>
+														<p>Iniciei na empresa cursando o ensino médio, foi o primeiro estágio e contato profissional.</p>
+														<p>&nbsp;</p>
+														<p>Aprendi como usar um computador e a atender clientes.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col s12 m12 l4">
+												<div class="card large">
+													<div class="card-image empresas">
+														<img src="lib/media/img/nort-host.png">
+														<span class="card-title">02/2016 - 06/2017</span>
+													</div>
+													<div class="card-content">
+														<p>Cargo: Suporte Junior</p>
+														<p>&nbsp;</p>
+														<p>Após um tempo, a antiga empresa trocou de nome, nessa fui promovido a Suporte Junior.</p>
+														<p>&nbsp;</p>
+														<p>Nesse momento o nível de conhecimento técnico sobre emails, servidores, wordpress, opencart  já era bem maior.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col s12 m12 l4">
+												<div class="card large">
+													<div class="card-image empresas">
+														<img src="lib/media/img/korp-software-para-gestao-industrial.png">
+														<span class="card-title">06/2017 - 03/2018</span>
+													</div>
+													<div class="card-content">
+														<p>Cargo: Programador Delphi Junior</p>
+														<p>&nbsp;</p>
+														<p>Primeira oportunidade de trabalhar como programador, muitos códigos, querys e BUGS. <br><br>Nessa etapa foram adquiridos conhecimentos sobre orientação a objeto, ERP e WMS.</p>
+													</div>
+												</div>
+											</div>
+											<div class="col s12 m12 l4">
+												<div class="card large">
+													<div class="card-image empresas">
+														<img src="lib/media/img/logcomex-logo.png">
+														<span class="card-title">04/2018 - Atual</span>
+													</div>
+													<div class="card-content">
+														<p>Cargo: Programador PHP Junior</p>
+														<p>&nbsp;</p>
+														<p>Oportunidade boa de trabalhar e aprender sobre a área Web, com Laravel, Vue.js, Node e Big Data.</p>
+													</div>
+												</div>
+											</div>
+											<div class="space">&nbsp;</div>
+										</div>
+									</div>
+								</div>
+								<div class="col s12 parallax">
+									<div class="parallax-container">
+										<div class="parallax">
+											<img src="lib/media/img/parallax.png">
+										</div>
+										<p class="center-align">Projetos</p>
+									</div>
+								</div>
+								<div id="projetos" class="conteudo col s12 m12 l12 scrollspy grey lighten-4">
+									<div class="container-row">
+										<div class="row">
+
+											<div class="col s12 m6">
+												<div class="card blue-grey darken-2">
+													<div class="card-content white-text">
+														<span class="card-title">Extração de números de telefone</span>
+														<p>Desenvolvido um script em PHP para ler um arquivo de dados que estava no formato <b>.docx</b>. As informações de milhares de usuários estavam em tabelas.</p>
+														<p>&nbsp;</p>
+														<p>Haviam diversas informações por registro. O script extraía o número de celular, adicionava o nono dígito na frente e excluía os números repetidos, armazenando tudo em um arquivo de texto <b>.txt</b>.</p>
+													</div>
+												</div>
+											</div>	
+
+											<div class="col s12 m6">
+												<div class="card blue-grey darken-2">
+													<div class="card-content white-text">
+														<span class="card-title">TCC do ensino médio técnico</span>
+														<p>Desenvolvido em equipe, um sistema de PHP com MySql e a api do Google Maps.</p>
+														<p>&nbsp;</p>
+														<p>Consistia em mostrar as academias próximas ao usuário e disponibilizar que o mesmo usasse-a mantendo seus treinos online.</p>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="col s12 parallax">
+									<div class="parallax-container">
+										<div class="parallax">
+											<img src="lib/media/img/parallax.png">
+										</div>
+										<p class="center-align">Entre em contato...</p>
+									</div>
+								</div>
+								<div id="contato" class="entre-em-contato col s12 m12 l12 scrollspy grey lighten-4" style="display: inline-grid;">
+									<div class="container">
+										<div class="row">
+											<div class="space">&nbsp;</div>
+											<form id="formulario-entre-em-contato" action="contato.php" method="post" accept-charset="utf-8">
+												<div class="col s12">
+													<form>
+														<div class="row">
+															<div class="input-field col s12 m12 l6">
+																<input id="nome" type="text" class="validate" required="true">
+																<label id="labelNome" data-error="Campo obrigatório!" for="nome">Nome completo</label>
+															</div>
+															<div class="input-field col s12 m12 l6">
+																<input id="email" type="email" class="validate" required="true">
+																<label for="email" data-error="Preencha um email válido!" data-success="Email verificado!">Email</label>
+															</div>
+														</div>
+														<div class="row">
+															<div class="input-field col s12">
+																<input id="assunto" type="text" class="validate" required="true">
+																<label data-error="Campo obrigatório!" for="assunto">Assunto</label>
+															</div>
+														</div>
+														<div class="row">
+															<div class="input-field col s12">
+																<textarea id="mensagem" class="materialize-textarea validate" data-length="3000" required="true"></textarea>
+																<label id="labelMensagem" data-error="Campo obrigatório! Deve possuir no máximo 3000 caracteres." for="mensagem">Mensagem</label>
+															</div>
+														</div>
+														<div class="row">
+
+															<div class="right">
+																<button id="enviar" class="btn waves-effect waves-light light-blue lighten-3" type="submit" name="action">Enviar <i class="material-icons right">send</i></button>
+															</div>
+														</div>
+
+														<div class="row">
+
+															<div id="loading" class="hide center-align">
+																<div class="preloader-wrapper big active">
+																	<div class="spinner-layer spinner-blue">
+																		<div class="circle-clipper left">
+																			<div class="circle"></div>
+																		</div><div class="gap-patch">
+																			<div class="circle"></div>
+																		</div><div class="circle-clipper right">
+																			<div class="circle"></div>
+																		</div>
+																	</div>
+
+																	<div class="spinner-layer spinner-red">
+																		<div class="circle-clipper left">
+																			<div class="circle"></div>
+																		</div><div class="gap-patch">
+																			<div class="circle"></div>
+																		</div><div class="circle-clipper right">
+																			<div class="circle"></div>
+																		</div>
+																	</div>
+
+																	<div class="spinner-layer spinner-yellow">
+																		<div class="circle-clipper left">
+																			<div class="circle"></div>
+																		</div><div class="gap-patch">
+																			<div class="circle"></div>
+																		</div><div class="circle-clipper right">
+																			<div class="circle"></div>
+																		</div>
+																	</div>
+
+																	<div class="spinner-layer spinner-green">
+																		<div class="circle-clipper left">
+																			<div class="circle"></div>
+																		</div><div class="gap-patch">
+																			<div class="circle"></div>
+																		</div><div class="circle-clipper right">
+																			<div class="circle"></div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+
+															<div id="resposta-formulario" class="col s12 center-align white-text"></div>
+														</div>
+
+													</form>
+												</div>
+											</form>	
+										</div>
+									</div>
+									<footer class="page-footer grey darken-4">
+										<div class="footer-copyright">
+											<div class="container">
+												© 2018 Copyright <a class="grey-text text-lighten-4 right">o.O</a>
+											</div>
+										</div>
+									</footer>
+								</div>
+							</div>
+						</div>
+					</div>	 
+				</div>
+			</div>
+
+		</main>
+		<footer></footer>
+		<!--  Scripts-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="lib/js/materialize.min.js"></script>
+		<script src="lib/js/scripts.js"></script>
+	</body>
+	</html>
