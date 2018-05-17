@@ -1,0 +1,187 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+.parallax-container 
+{
+  height: auto;
+  line-height: 0;
+  max-height: 150px;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* Alterações */
+
+nav {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.infos {
+  background-color: #191917;
+  font-size: 1.3em;
+  z-index:9999;
+}
+
+.banner-principal {
+  max-height: 100vh;
+  height: 100vh;
+}
+
+.social-icons a {
+  padding: 5px !important;
+}
+
+.foto-perfil {
+  width: 65%;
+}
+
+#conteudo {
+  padding: 0;
+}
+
+.infos .active {
+  border-left: 3px solid #ccc !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.link-menu .table-of-contents a:hover {
+  border-left: 3px solid #ccc !important;
+}
+
+.table-of-contents a:hover {
+  border: 0px;
+}
+
+.infos .nome {
+  margin: 0px !important;
+}
+
+.row-clean {
+  margin-bottom: 0px !important;
+}
+
+.conteudo {
+  min-height: 100vh !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.conteudo h4 {
+  margin-top: 40px;
+}
+
+footer {
+  align-self: flex-end;
+}
+
+.space {
+  margin: 1.2em 0 1.2em 0;
+}
+
+.empresas {
+  padding: 1em;
+  background-color:#19191787;
+}
+
+.card-title {
+  padding: 5px 20px !important;
+  font-size: 18px !important;
+}
+
+.parallax {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.parallax-container p{
+  font-size: 3em;
+  line-height: 1.2em;
+}
+
+.entre-em-contato {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.valign-wrapper {
+  display: grid;
+}
+
+.habilidade .card .card-action {
+  padding: 0px;
+}
+
+.habilidade .card .card-content {
+  padding: 10px;
+}
+
+.habilidade a {
+  width: 100%;
+  border-radius:0px;
+  background-color: #191917;
+}
+
+.habilidade .btn:hover {
+ background-color: #4a4a48;
+}
+
+.foto-curriculo {
+  margin-top:15px;
+}
+
+#resposta-formulario {
+  padding:20px;
+  font-size: 1.2em;
+}
+
+.card-content p {
+  text-align: justify;
+}
+
+.collapsible p {
+  margin: 12px !important;
+  font-size: 18px !important;
+}
+
+.large .card-content {
+  max-height: 80% !important;
+}
+
+.menu-collapse i {
+  background: #424242ad !important;
+}
